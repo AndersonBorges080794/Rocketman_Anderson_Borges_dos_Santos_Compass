@@ -1,20 +1,25 @@
-import assert from 'assert';
+/*import assert from 'assert';
+import chai from 'chai';
+
+const expect = chai.expect; */
 
 /*As estruturas describe('', () => {}); e it('', ()=> {}) vem da dependência mocha.  */
-describe('Meu primeiro teste', () => {
+/* describe('Meu primeiro teste', () => {
     
-    it('Verifica uma igualdade', ()=> {
+    it('Verifica a var "aux"', ()=> {
 
         let aux = 8;
-        assert.strictEqual(aux, 8);
+        //assert.strictEqual(aux, 8);
+        expect(aux).to.be.equals(8).and.to.be.a('number');
+
 
     });
 
-    it('Verifica uma igualdade 2', ()=> {
+    it('Verifica var "Anderson"', ()=> {
 
         let aux = 'Anderson';
-        assert.strictEqual(aux, 'Anderson');
-
+        //assert.strictEqual(aux, 'Anderson');
+        expect(aux).to.be.equals('Anderson').and.not.equals('Borges');
     });
 
 });
@@ -36,4 +41,4 @@ describe('Meu segundo teste', () => {
     });
 
 });
-
+*/
